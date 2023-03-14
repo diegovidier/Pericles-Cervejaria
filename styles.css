@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Raleway';
+    
+}
+
+#headerPrincipal {
+    margin: 100px 70px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 16pt;
+}
+
+img{
+    margin-top: -25px;
+    align-items: center;
+    margin-left: 45%;
+    width: 70px;
+ 
+}
+
+#board{   
+    margin-top: 120px; 
+    background-color: #CA7900;
+    width: 35%;
+    margin-left: 32%; 
+    height: 140px;
+    align-items: center;       
+    border-radius: 20px;
+
+}
+
+h3{
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16pt;
+}
+
+section{
+    display: flex;
+    justify-content: center;  
+    
+}
+
+button{
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #Ca8500;
+    border: solid 3px white;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#naoButton{
+    margin-left: 50px;
+}
+
+/*página maior de 18 anos*/
+
+#navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#CA7900;
+    height: 55px;
+    margin-bottom: 180px;
+    
+}
+
+.linkNavBar{    
+    font-size: 16pt;
+    font-weight: 500;
+    text-decoration: none;
+    color: #F5F5F5;    
+}
+
+#cervejariaLink{
+    margin-left: 20px;
+}
+
+#myLinkCar{
+    margin-left: 60%;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+#imgCar{
+    margin-top: 3px;
+    margin-right: 30px;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 18px;    
+}
+
+#textMaior18{
+    margin-top: 20px;
+    font-size: 14pt;
+    
+}
+
+#entrarButton{
+    margin-top: 170px;
+    margin-left: 44%;
+    border: 2px solid white;
+    width: 10%;
+    
+}
+
+#textMenor18{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15pt;
+
+}

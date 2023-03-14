@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Péricles Cervejaria Delivery</title>
+
+    <script>
+        
+
+        function acesso(resposta){       
+            
+            if (resposta == "yesAnswer") {
+
+                window.location.href = "maior18.html?resposta=sim";
+
+            } else {
+
+                window.location.href = "menor18.html?resposta=não";
+
+            }
+        }
+    </script>
+
+
+</head>
+<body>
+    <header id="headerPrincipal">
+        <h2>Bem-vindo à 
+            <br>Cervejaria do Pericles Delivery</h1>
+    </header>
+
+    <main>
+            
+            <div id="board">
+                <img src="assets/images/chopp.png">
+
+                <div><h3>Você é o maior de 18 anos?</h3></div>
+
+                <section>
+                    
+                    <div><button onclick="acesso('yesAnswer')" id="simButton">Sim</button></div>
+
+                    <div><button onclick="acesso('noAnswer')" id="naoButton">Não</button></div>
+
+                </section>
+            </div>                
+                    
+    </main>
+    
+</body>
+</html>
